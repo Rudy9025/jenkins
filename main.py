@@ -1,2 +1,2 @@
-for i in range(5000):
+for i in range(500000):
     print(f"{i}: Hello ")
