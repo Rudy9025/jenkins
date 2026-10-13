@@ -11,21 +11,18 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                bat "Build step executed successfully."
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                bat "Tests passed successfully."
             }
         }
 
         stage('Deploy') {
             steps {
                 echo 'Deploying application...'
-                bat "Deployment completed."
             }
         }
     }
