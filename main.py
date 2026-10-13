@@ -1,2 +1,2 @@
-for i in range(500000):
-    print(f"{i}: Hello ")
+for i in range(100, -1, -1):
+    print(f"Hello: {i}")
