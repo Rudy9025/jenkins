@@ -1,1 +1,1 @@
-print("This is test message multi-branch ")
+print("This is test message multi-branch from (dev-rud)")
